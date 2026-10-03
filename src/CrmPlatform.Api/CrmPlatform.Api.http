@@ -1,6 +1,4 @@
-@CrmPlatform.Api_HostAddress = http://localhost:5005
+@CrmPlatform.Api_HostAddress = https://localhost:7274
 
-GET {{CrmPlatform.Api_HostAddress}}/weatherforecast/
+GET {{CrmPlatform.Api_HostAddress}}/health/live
 Accept: application/json
-
-###
